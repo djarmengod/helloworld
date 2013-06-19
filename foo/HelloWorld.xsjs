@@ -1,5 +1,5 @@
 $.response.contentType = "text/html";
-var output = "Hello World! <br><br>"; 
+var output = "Que pasa Negrito! <br><br>"; 
 
 var conn = $.db.getConnection();
 var pstmt = conn.prepareStatement("select * from DUMMY");
